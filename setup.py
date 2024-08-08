@@ -54,3 +54,4 @@ def setup_features(schizo_data_array, asd_data_array):
 if __name__ == "__main__":
     s_data_array, s_label_array, a_data_array, a_label_array = setup_data()
     s_feature_array, a_feature_array = setup_features(s_data_array, a_data_array)
+    print("Setup Done")
