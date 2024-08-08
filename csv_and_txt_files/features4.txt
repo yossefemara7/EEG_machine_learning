@@ -1,0 +1,8 @@
+Feature List: ['argmin', 'argmax', 'mean', 'skewness', 'beta_band']   Accuracy: 0.528
+Feature List: ['var', 'alpha_band', 'kurtosis', 'skewness']   Accuracy: 0.632
+Feature List: ['beta_band', 'min', 'ptp']   Accuracy: 0.672
+Feature List: ['signal_energy', 'alpha_band', 'skewness', 'abs_diff_signal']   Accuracy: 0.488
+Feature List: ['argmax', 'beta_band', 'alpha_band', 'rms', 'std']   Accuracy: 0.504
+Feature List: ['alpha_band', 'kurtosis', 'signal_energy', 'ptp', 'skewness', 'theta_band']   Accuracy: 0.56
+Feature List: ['theta_band', 'std', 'alpha_band', 'skewness', 'signal_energy']   Accuracy: 0.544
+Feature List: ['argmax', 'min', 'rms']   Accuracy: 0.584

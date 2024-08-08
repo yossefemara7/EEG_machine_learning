@@ -1,0 +1,6 @@
+statistical.npy
+bands.npy
+best1.npy
+highest.npy.npy
+bo.npy
+bands_new.npy

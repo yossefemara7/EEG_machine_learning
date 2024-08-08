@@ -1,0 +1,100 @@
+Feature List: ['delta_channels', 'abs_diff_signal', 'theta_slow', 'total_channels']   Accuracy: 1.0
+Feature List: ['ptp', 'std', 'max', 'abs_diff_signal', 'mean', 'theta_slow']   Accuracy: 1.0
+Feature List: ['std', 'beta_channels', 'theta_channels', 'abs_diff_signal']   Accuracy: 1.0
+Feature List: ['alpha_channels', 'abs_diff_signal', 'min']   Accuracy: 0.9978632478632479
+Feature List: ['abs_diff_signal', 'beta_channels', 'slow_channels']   Accuracy: 0.9978632478632479
+Feature List: ['beta_channels', 'delta_channels', 'abs_diff_signal', 'theta_slow', 'spectral_entropy_channels', 'theta_channels']   Accuracy: 0.9957264957264957
+Feature List: ['mean', 'abs_diff_signal', 'ptp', 'min', 'std', 'alpha_channels']   Accuracy: 0.9935897435897436
+Feature List: ['slow_channels', 'max', 'argmax', 'var', 'signal_energy', 'abs_diff_signal']   Accuracy: 0.9935897435897436
+Feature List: ['mean', 'ptp', 'min', 'abs_diff_signal', 'argmin']   Accuracy: 0.9893162393162394
+Feature List: ['rms', 'min', 'abs_diff_signal', 'argmin']   Accuracy: 0.9871794871794872
+Feature List: ['std', 'delta_channels', 'theta_channels', 'ptp']   Accuracy: 0.9764957264957265
+Feature List: ['max', 'var', 'min']   Accuracy: 0.9743589743589743
+Feature List: ['mean', 'ptp', 'slow_channels', 'beta_channels']   Accuracy: 0.9743589743589743
+Feature List: ['std', 'mean', 'slow_channels', 'total_channels', 'max', 'ptp']   Accuracy: 0.9722222222222222
+Feature List: ['max', 'min', 'slow_channels', 'beta_channels', 'var']   Accuracy: 0.9700854700854701
+Feature List: ['signal_energy', 'spectral_entropy_channels', 'alpha_channels', 'var']   Accuracy: 0.9658119658119658
+Feature List: ['beta_channels', 'ptp', 'theta_channels', 'slow_channels', 'theta_slow', 'alpha_channels']   Accuracy: 0.9658119658119658
+Feature List: ['var', 'max', 'theta_channels']   Accuracy: 0.9658119658119658
+Feature List: ['theta_channels', 'total_channels', 'alpha_channels', 'slow_channels', 'delta_channels']   Accuracy: 0.9572649572649573
+Feature List: ['max', 'mean', 'min', 'ptp']   Accuracy: 0.9572649572649573
+Feature List: ['theta_channels', 'alpha_channels', 'beta_channels', 'ptp', 'mean']   Accuracy: 0.9572649572649573
+Feature List: ['theta_slow', 'min', 'var', 'std', 'beta_channels', 'total_channels']   Accuracy: 0.9572649572649573
+Feature List: ['delta_channels', 'mean', 'alpha_channels', 'ptp']   Accuracy: 0.9572649572649573
+Feature List: ['var', 'std', 'max', 'min']   Accuracy: 0.9551282051282052
+Feature List: ['beta_channels', 'ptp', 'argmin', 'max', 'theta_channels']   Accuracy: 0.9551282051282052
+Feature List: ['max', 'min', 'ptp', 'beta_channels']   Accuracy: 0.9551282051282052
+Feature List: ['slow_channels', 'rms', 'theta_slow', 'var', 'ptp']   Accuracy: 0.9551282051282052
+Feature List: ['beta_channels', 'signal_energy', 'theta_channels', 'delta_channels']   Accuracy: 0.9529914529914529
+Feature List: ['std', 'max', 'var']   Accuracy: 0.9529914529914529
+Feature List: ['argmin', 'ptp', 'beta_channels', 'std', 'max']   Accuracy: 0.9529914529914529
+Feature List: ['beta_channels', 'ptp', 'theta_channels', 'std']   Accuracy: 0.9529914529914529
+Feature List: ['mean', 'ptp', 'var', 'theta_slow']   Accuracy: 0.9529914529914529
+Feature List: ['argmax', 'beta_channels', 'total_channels', 'ptp']   Accuracy: 0.9529914529914529
+Feature List: ['mean', 'std', 'var']   Accuracy: 0.9508547008547008
+Feature List: ['alpha_channels', 'argmax', 'min', 'ptp', 'std', 'beta_channels']   Accuracy: 0.9508547008547008
+Feature List: ['signal_energy', 'spectral_entropy_channels', 'rms', 'mean']   Accuracy: 0.9508547008547008
+Feature List: ['std', 'ptp', 'mean']   Accuracy: 0.9487179487179487
+Feature List: ['alpha_channels', 'theta_channels', 'beta_channels', 'argmax', 'delta_channels', 'var']   Accuracy: 0.9487179487179487
+Feature List: ['argmax', 'ptp', 'std']   Accuracy: 0.9444444444444444
+Feature List: ['argmax', 'std', 'alpha_channels']   Accuracy: 0.9444444444444444
+Feature List: ['var', 'min', 'slow_channels', 'total_channels', 'theta_slow']   Accuracy: 0.9423076923076923
+Feature List: ['total_channels', 'alpha_channels', 'mean', 'theta_channels', 'beta_channels', 'max']   Accuracy: 0.9423076923076923
+Feature List: ['slow_channels', 'std', 'mean']   Accuracy: 0.9401709401709402
+Feature List: ['mean', 'ptp', 'var', 'argmin', 'min']   Accuracy: 0.9358974358974359
+Feature List: ['std', 'argmin', 'max', 'ptp', 'var']   Accuracy: 0.9337606837606838
+Feature List: ['mean', 'total_channels', 'argmax', 'ptp']   Accuracy: 0.9316239316239316
+Feature List: ['argmin', 'theta_channels', 'slow_channels', 'delta_channels', 'var']   Accuracy: 0.9316239316239316
+Feature List: ['min', 'var', 'argmax', 'ptp']   Accuracy: 0.9294871794871795
+Feature List: ['alpha_channels', 'spectral_entropy_channels', 'min', 'argmin', 'theta_slow']   Accuracy: 0.9294871794871795
+Feature List: ['min', 'mean', 'ptp', 'rms', 'var']   Accuracy: 0.9294871794871795
+Feature List: ['argmax', 'alpha_channels', 'min', 'rms']   Accuracy: 0.9273504273504274
+Feature List: ['mean', 'argmin', 'ptp', 'max']   Accuracy: 0.9230769230769231
+Feature List: ['max', 'var', 'ptp', 'std', 'argmax']   Accuracy: 0.9230769230769231
+Feature List: ['std', 'ptp', 'slow_channels', 'argmin']   Accuracy: 0.9230769230769231
+Feature List: ['alpha_channels', 'spectral_entropy_channels', 'argmin']   Accuracy: 0.9230769230769231
+Feature List: ['theta_channels', 'min', 'beta_channels']   Accuracy: 0.9230769230769231
+Feature List: ['theta_slow', 'ptp', 'beta_channels']   Accuracy: 0.9209401709401709
+Feature List: ['max', 'theta_channels', 'theta_slow', 'mean', 'std']   Accuracy: 0.9209401709401709
+Feature List: ['argmax', 'alpha_channels', 'var', 'argmin', 'max']   Accuracy: 0.9188034188034188
+Feature List: ['ptp', 'argmin', 'min', 'var']   Accuracy: 0.9166666666666666
+Feature List: ['theta_channels', 'var', 'argmax', 'max']   Accuracy: 0.9166666666666666
+Feature List: ['var', 'mean', 'theta_slow']   Accuracy: 0.9166666666666666
+Feature List: ['max', 'mean', 'std']   Accuracy: 0.9123931623931624
+Feature List: ['total_channels', 'slow_channels', 'theta_slow', 'max', 'ptp']   Accuracy: 0.9123931623931624
+Feature List: ['total_channels', 'alpha_channels', 'beta_channels', 'spectral_entropy_channels', 'theta_channels', 'argmax']   Accuracy: 0.9123931623931624
+Feature List: ['std', 'min', 'mean', 'max', 'argmin']   Accuracy: 0.9102564102564102
+Feature List: ['total_channels', 'max', 'beta_channels', 'argmax']   Accuracy: 0.9081196581196581
+Feature List: ['argmin', 'spectral_entropy_channels', 'slow_channels', 'theta_channels']   Accuracy: 0.9081196581196581
+Feature List: ['std', 'var', 'slow_channels', 'argmax']   Accuracy: 0.9081196581196581
+Feature List: ['max', 'theta_channels', 'theta_slow', 'std', 'total_channels']   Accuracy: 0.905982905982906
+Feature List: ['min', 'slow_channels', 'max', 'var', 'argmin', 'argmax']   Accuracy: 0.9038461538461539
+Feature List: ['max', 'theta_slow', 'beta_channels']   Accuracy: 0.9038461538461539
+Feature List: ['max', 'alpha_channels', 'theta_slow']   Accuracy: 0.9017094017094017
+Feature List: ['theta_channels', 'theta_slow', 'argmax', 'total_channels', 'var', 'max']   Accuracy: 0.8995726495726496
+Feature List: ['ptp', 'mean', 'var', 'argmax', 'min', 'argmin']   Accuracy: 0.8974358974358975
+Feature List: ['mean', 'ptp', 'argmin']   Accuracy: 0.8931623931623932
+Feature List: ['max', 'var', 'ptp', 'argmax', 'argmin']   Accuracy: 0.8931623931623932
+Feature List: ['slow_channels', 'theta_slow', 'alpha_channels', 'std']   Accuracy: 0.8931623931623932
+Feature List: ['slow_channels', 'mean', 'theta_channels']   Accuracy: 0.8931623931623932
+Feature List: ['var', 'max', 'std', 'argmax', 'argmin', 'ptp']   Accuracy: 0.8910256410256411
+Feature List: ['argmin', 'alpha_channels', 'beta_channels', 'argmax', 'max']   Accuracy: 0.8910256410256411
+Feature List: ['mean', 'delta_channels', 'min']   Accuracy: 0.8910256410256411
+Feature List: ['mean', 'delta_channels', 'max']   Accuracy: 0.8910256410256411
+Feature List: ['var', 'rms', 'argmin']   Accuracy: 0.8888888888888888
+Feature List: ['total_channels', 'min', 'mean', 'theta_slow']   Accuracy: 0.8888888888888888
+Feature List: ['min', 'argmax', 'argmin', 'max', 'mean']   Accuracy: 0.8803418803418803
+Feature List: ['argmin', 'var', 'max', 'argmax', 'ptp', 'std']   Accuracy: 0.8803418803418803
+Feature List: ['mean', 'slow_channels', 'min', 'total_channels', 'argmin']   Accuracy: 0.8803418803418803
+Feature List: ['argmax', 'max', 'argmin', 'std']   Accuracy: 0.8760683760683761
+Feature List: ['theta_slow', 'alpha_channels', 'total_channels', 'theta_channels']   Accuracy: 0.8653846153846154
+Feature List: ['slow_channels', 'min', 'argmax']   Accuracy: 0.8632478632478633
+Feature List: ['min', 'argmin', 'mean']   Accuracy: 0.8611111111111112
+Feature List: ['mean', 'argmax', 'max']   Accuracy: 0.8547008547008547
+Feature List: ['argmax', 'max', 'theta_channels', 'argmin', 'std']   Accuracy: 0.8525641025641025
+Feature List: ['theta_slow', 'rms', 'mean']   Accuracy: 0.8461538461538461
+Feature List: ['argmin', 'max', 'mean']   Accuracy: 0.8397435897435898
+Feature List: ['max', 'argmax', 'argmin', 'min']   Accuracy: 0.8333333333333334
+Feature List: ['theta_slow', 'alpha_channels', 'mean']   Accuracy: 0.8055555555555556
+Feature List: ['theta_slow', 'alpha_channels', 'argmin', 'theta_channels', 'delta_channels']   Accuracy: 0.8055555555555556
+Feature List: ['mean', 'argmin', 'theta_slow', 'delta_channels', 'theta_channels']   Accuracy: 0.7777777777777778

@@ -1,0 +1,110 @@
+['max', 'mean', 'abs_diff_signal'] Accuracy: 0.9829059829059829
+['mean', 'abs_diff_signal', 'max', 'ptp', 'var'] Accuracy: 0.9829059829059829
+['var', 'mean', 'abs_diff_signal', 'min'] Accuracy: 0.9829059829059829
+['abs_diff_signal', 'max', 'std'] Accuracy: 0.9743589743589743
+['alpha_band', 'std', 'ptp', 'abs_diff_signal'] Accuracy: 0.9743589743589743
+['min', 'var', 'abs_diff_signal', 'std'] Accuracy: 0.9658119658119658
+['var', 'mean', 'abs_diff_signal', 'rms', 'min'] Accuracy: 0.9658119658119658
+['signal_energy', 'abs_diff_signal', 'rms', 'delta_band', 'min', 'theta_band'] Accuracy: 0.9658119658119658
+['var', 'alpha_band', 'signal_energy', 'beta_band', 'ptp', 'abs_diff_signal'] Accuracy: 0.9572649572649573
+['ptp', 'min', 'abs_diff_signal', 'mean', 'rms', 'signal_energy'] Accuracy: 0.9572649572649573
+['alpha_band', 'theta_band', 'std', 'signal_energy', 'abs_diff_signal'] Accuracy: 0.9487179487179487
+['abs_diff_signal', 'mean', 'beta_band', 'std', 'var'] Accuracy: 0.9316239316239316
+['ptp', 'var', 'abs_diff_signal'] Accuracy: 0.9316239316239316
+['signal_energy', 'min', 'var', 'alpha_band', 'abs_diff_signal'] Accuracy: 0.9230769230769231
+['mean', 'rms', 'var'] Accuracy: 0.9145299145299145
+['rms', 'theta_band', 'delta_band', 'alpha_band', 'var'] Accuracy: 0.905982905982906
+['rms', 'alpha_band', 'std'] Accuracy: 0.8974358974358975
+['min', 'max', 'std'] Accuracy: 0.8974358974358975
+['rms', 'std', 'var', 'beta_band'] Accuracy: 0.8974358974358975
+['delta_band', 'min', 'max', 'rms'] Accuracy: 0.8888888888888888
+['std', 'ptp', 'min', 'var', 'rms'] Accuracy: 0.8803418803418803
+['beta_band', 'theta_band', 'signal_energy'] Accuracy: 0.8803418803418803
+['signal_energy', 'rms', 'ptp', 'theta_band'] Accuracy: 0.8803418803418803
+['delta_band', 'alpha_band', 'var'] Accuracy: 0.8717948717948718
+['max', 'theta_band', 'beta_band'] Accuracy: 0.8632478632478633
+['ptp', 'signal_energy', 'max'] Accuracy: 0.8547008547008547
+['std', 'signal_energy', 'alpha_band', 'var', 'beta_band', 'delta_band'] Accuracy: 0.8547008547008547
+['rms', 'alpha_band', 'ptp'] Accuracy: 0.8461538461538461
+['max', 'min', 'beta_band', 'delta_band'] Accuracy: 0.8376068376068376
+['min', 'rms', 'std'] Accuracy: 0.8290598290598291
+['var', 'delta_band', 'ptp', 'signal_energy'] Accuracy: 0.8205128205128205
+['alpha_band', 'var', 'max', 'beta_band'] Accuracy: 0.8034188034188035
+['delta_band', 'signal_energy', 'max'] Accuracy: 0.7948717948717948
+['ptp', 'alpha_band', 'beta_band'] Accuracy: 0.7692307692307693
+['min', 'theta_band', 'mean'] Accuracy: 0.7606837606837606
+['signal_energy', 'max', 'min'] Accuracy: 0.7606837606837606
+['theta_band', 'delta_band', 'skewness', 'ptp', 'signal_energy', 'alpha_band'] Accuracy: 0.7606837606837606
+['mean', 'skewness', 'signal_energy', 'rms', 'var'] Accuracy: 0.7435897435897436
+['delta_band', 'std', 'min', 'alpha_band', 'var'] Accuracy: 0.7435897435897436
+['max', 'alpha_band', 'var', 'min', 'mean', 'delta_band'] Accuracy: 0.7350427350427351
+['max', 'var', 'skewness', 'mean', 'rms'] Accuracy: 0.7350427350427351
+['std', 'alpha_band', 'kurtosis', 'delta_band'] Accuracy: 0.7264957264957265
+['std', 'signal_energy', 'skewness', 'ptp', 'max'] Accuracy: 0.7264957264957265
+['abs_diff_signal', 'skewness', 'min', 'ptp', 'delta_band', 'kurtosis'] Accuracy: 0.7264957264957265
+['beta_band', 'delta_band', 'mean', 'signal_energy'] Accuracy: 0.7264957264957265
+['min', 'var', 'delta_band', 'skewness', 'theta_band'] Accuracy: 0.717948717948718
+['theta_band', 'std', 'skewness', 'delta_band', 'beta_band'] Accuracy: 0.717948717948718
+['max', 'beta_band', 'theta_band', 'alpha_band', 'kurtosis', 'skewness'] Accuracy: 0.717948717948718
+['var', 'delta_band', 'mean', 'alpha_band', 'kurtosis'] Accuracy: 0.7008547008547008
+['min', 'std', 'rms', 'abs_diff_signal', 'kurtosis', 'signal_energy'] Accuracy: 0.7008547008547008
+['theta_band', 'skewness', 'signal_energy', 'alpha_band', 'ptp', 'mean'] Accuracy: 0.7008547008547008
+['min', 'var', 'kurtosis'] Accuracy: 0.7008547008547008
+['theta_band', 'min', 'ptp', 'skewness'] Accuracy: 0.7008547008547008
+['kurtosis', 'skewness', 'ptp', 'beta_band'] Accuracy: 0.7008547008547008
+['kurtosis', 'mean', 'abs_diff_signal', 'max'] Accuracy: 0.6837606837606838
+['rms', 'kurtosis', 'beta_band', 'signal_energy', 'max', 'delta_band'] Accuracy: 0.6752136752136753
+['ptp', 'skewness', 'beta_band', 'max', 'std'] Accuracy: 0.6752136752136753
+['abs_diff_signal', 'std', 'skewness', 'rms', 'alpha_band'] Accuracy: 0.6666666666666666
+['mean', 'ptp', 'kurtosis', 'signal_energy', 'beta_band', 'rms'] Accuracy: 0.6666666666666666
+['alpha_band', 'skewness', 'max', 'min'] Accuracy: 0.6666666666666666
+['rms', 'std', 'skewness', 'min'] Accuracy: 0.6666666666666666
+['signal_energy', 'alpha_band', 'kurtosis'] Accuracy: 0.6581196581196581
+['signal_energy', 'rms', 'kurtosis', 'skewness', 'max', 'abs_diff_signal'] Accuracy: 0.6581196581196581
+['skewness', 'beta_band', 'abs_diff_signal'] Accuracy: 0.6581196581196581
+['abs_diff_signal', 'skewness', 'beta_band'] Accuracy: 0.6495726495726496
+['signal_energy', 'var', 'kurtosis'] Accuracy: 0.6495726495726496
+['theta_band', 'var', 'max', 'skewness'] Accuracy: 0.6495726495726496
+['delta_band', 'skewness', 'std', 'min'] Accuracy: 0.6410256410256411
+['var', 'skewness', 'max', 'abs_diff_signal', 'ptp'] Accuracy: 0.6410256410256411
+['beta_band', 'theta_band', 'kurtosis', 'mean', 'max'] Accuracy: 0.6410256410256411
+['kurtosis', 'beta_band', 'skewness', 'delta_band', 'ptp'] Accuracy: 0.6324786324786325
+['signal_energy', 'kurtosis', 'beta_band'] Accuracy: 0.6324786324786325
+['theta_band', 'max', 'alpha_band', 'rms', 'skewness'] Accuracy: 0.6239316239316239
+['skewness', 'signal_energy', 'theta_band'] Accuracy: 0.6239316239316239
+['mean', 'beta_band', 'max', 'skewness', 'rms'] Accuracy: 0.6239316239316239
+['beta_band', 'skewness', 'ptp', 'var', 'mean', 'rms'] Accuracy: 0.6153846153846154
+['kurtosis', 'ptp', 'signal_energy', 'var', 'beta_band', 'min'] Accuracy: 0.6153846153846154
+['min', 'skewness', 'argmax', 'std', 'var'] Accuracy: 0.6068376068376068
+['theta_band', 'kurtosis', 'std'] Accuracy: 0.6068376068376068
+['std', 'delta_band', 'ptp', 'mean', 'kurtosis'] Accuracy: 0.5982905982905983
+['abs_diff_signal', 'rms', 'delta_band', 'ptp', 'argmax', 'kurtosis'] Accuracy: 0.5897435897435898
+['max', 'skewness', 'delta_band'] Accuracy: 0.5897435897435898
+['rms', 'skewness', 'signal_energy', 'var'] Accuracy: 0.5897435897435898
+['max', 'delta_band', 'skewness'] Accuracy: 0.5811965811965812
+['argmax', 'max', 'mean', 'kurtosis', 'rms', 'std'] Accuracy: 0.5811965811965812
+['max', 'kurtosis', 'rms'] Accuracy: 0.5811965811965812
+['kurtosis', 'rms', 'ptp', 'argmax', 'mean', 'var'] Accuracy: 0.5726495726495726
+['skewness', 'argmax', 'mean'] Accuracy: 0.5726495726495726
+['argmin', 'max', 'theta_band', 'alpha_band'] Accuracy: 0.5726495726495726
+['argmax', 'std', 'rms', 'skewness'] Accuracy: 0.5641025641025641
+['argmin', 'argmax', 'skewness', 'signal_energy'] Accuracy: 0.5641025641025641
+['var', 'signal_energy', 'argmin', 'ptp'] Accuracy: 0.5555555555555556
+['max', 'ptp', 'rms', 'argmax'] Accuracy: 0.5470085470085471
+['beta_band', 'argmin', 'argmax'] Accuracy: 0.5470085470085471
+['skewness', 'max', 'delta_band', 'ptp', 'argmin', 'var'] Accuracy: 0.5470085470085471
+['ptp', 'theta_band', 'argmax', 'var'] Accuracy: 0.5384615384615384
+['signal_energy', 'beta_band', 'mean', 'var', 'argmin'] Accuracy: 0.5299145299145299
+['std', 'max', 'skewness', 'argmin', 'ptp'] Accuracy: 0.5213675213675214
+['rms', 'abs_diff_signal', 'ptp', 'argmax'] Accuracy: 0.5213675213675214
+['theta_band', 'max', 'argmax'] Accuracy: 0.5128205128205128
+['argmin', 'mean', 'ptp', 'std', 'beta_band'] Accuracy: 0.5042735042735043
+['argmin', 'beta_band', 'min', 'var', 'theta_band'] Accuracy: 0.5042735042735043
+['max', 'skewness', 'min', 'beta_band', 'argmin'] Accuracy: 0.5042735042735043
+['argmax', 'alpha_band', 'mean'] Accuracy: 0.5042735042735043
+['argmax', 'signal_energy', 'alpha_band', 'abs_diff_signal'] Accuracy: 0.49572649572649574
+['min', 'rms', 'kurtosis', 'max', 'theta_band', 'argmin'] Accuracy: 0.49572649572649574
+['mean', 'delta_band', 'rms', 'abs_diff_signal', 'signal_energy', 'argmax'] Accuracy: 0.49572649572649574
+['delta_band', 'argmax', 'theta_band', 'rms', 'mean'] Accuracy: 0.49572649572649574
+['rms', 'theta_band', 'max', 'argmax', 'mean', 'var'] Accuracy: 0.49572649572649574
+['mean', 'argmax', 'var', 'ptp', 'rms', 'std'] Accuracy: 0.48717948717948717

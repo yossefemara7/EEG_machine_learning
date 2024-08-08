@@ -1,0 +1,459 @@
+[
+    {
+        "['spectral_wavelet_entropy', 'abs_diff_signal', 'shannon_entropy', 'beta_channels', 'theta_channels', 'peak_freq_channels', 'std']": {
+            "Accuracy": 0.9565972222222222,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['abs_diff_signal', 'beta_channels', 'spectral_kurtosis_channels', 'wavelet_entropy', 'theta_channels', 'hjorth_complexity', 'spectral_shannon_entropy']": {
+            "Accuracy": 0.9548611111111112,
+            "Model": "random_forest",
+            "Parameters": {
+                "max_depth": 20,
+                "n_estimators": 200
+            }
+        }
+    },
+    {
+        "['skewness', 'var', 'spectral_wavelet_entropy', 'abs_diff_signal', 'mean', 'std', 'spectral_skewness_channels']": {
+            "Accuracy": 0.9600694444444444,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        }
+    },
+    {
+        "['spectral_kurtosis_channels', 'abs_diff_signal', 'spectral_skewness_channels', 'hjorth_mobility', 'max', 'hjorth_complexity']": {
+            "Accuracy": 0.9739583333333334,
+            "Model": "random_forest",
+            "Parameters": {
+                "max_depth": null,
+                "n_estimators": 100
+            }
+        },
+        "['max', 'abs_diff_signal', 'mean', 'wavelet_entropy', 'spectral_shannon_entropy', 'peak_freq_channels', 'spectral_std']": {
+            "Accuracy": 0.9557291666666666,
+            "Model": "random_forest",
+            "Parameters": {
+                "max_depth": null,
+                "n_estimators": 200
+            }
+        },
+        "['std', 'alpha_channels', 'hjorth_mobility', 'mean', 'spectral_shannon_entropy']": {
+            "Accuracy": 0.9548611111111112,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['spectral_mean', 'rms', 'hjorth_mobility', 'spectral_skewness_channels']": {
+            "Accuracy": 0.9644097222222222,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 100
+            }
+        }
+    },
+    {
+        "['beta_channels', 'spectral_std']": {
+            "Accuracy": 0.9505208333333334,
+            "Model": "knn",
+            "Parameters": {
+                "n_neighbors": 5
+            }
+        },
+        "['spectral_mean', 'spectral_shannon_entropy', 'max', 'std', 'spectral_variance', 'theta_channels']": {
+            "Accuracy": 0.9505208333333334,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 100
+            }
+        },
+        "['abs_diff_signal', 'shannon_entropy', 'signal_energy', 'rms']": {
+            "Accuracy": 0.9618055555555556,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['peak_freq_channels', 'ptp', 'hjorth_complexity', 'spectral_mean', 'spectral_skewness_channels', 'abs_diff_signal', 'spectral_kurtosis_channels']": {
+            "Accuracy": 0.953125,
+            "Model": "random_forest",
+            "Parameters": {
+                "max_depth": 20,
+                "n_estimators": 100
+            }
+        },
+        "['hjorth_mobility', 'rms', 'mean', 'spectral_shannon_entropy']": {
+            "Accuracy": 0.9522569444444444,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 100
+            }
+        },
+        "['signal_energy', 'spectral_shannon_entropy', 'peak_freq_channels', 'beta_channels', 'rms', 'hjorth_complexity', 'theta_channels']": {
+            "Accuracy": 0.9565972222222222,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['spectral_mean', 'ptp', 'hjorth_mobility', 'peak_freq_channels', 'abs_diff_signal']": {
+            "Accuracy": 0.9696180555555556,
+            "Model": "random_forest",
+            "Parameters": {
+                "max_depth": null,
+                "n_estimators": 200
+            }
+        }
+    },
+    {
+        "['spectral_variance', 'abs_diff_signal']": {
+            "Accuracy": 0.9618055555555556,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['alpha_channels', 'rms', 'var', 'abs_diff_signal']": {
+            "Accuracy": 0.9713541666666666,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['abs_diff_signal', 'std', 'ptp', 'kurtosis', 'peak_freq_channels']": {
+            "Accuracy": 0.9565972222222222,
+            "Model": "random_forest",
+            "Parameters": {
+                "max_depth": 20,
+                "n_estimators": 200
+            }
+        },
+        "['abs_diff_signal', 'rms', 'hjorth_mobility', 'peak_freq_channels', 'spectral_variance', 'spectral_skewness_channels']": {
+            "Accuracy": 0.9626736111111112,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['std', 'abs_diff_signal', 'rms', 'kurtosis', 'shannon_entropy', 'spectral_variance', 'peak_freq_channels']": {
+            "Accuracy": 0.9626736111111112,
+            "Model": "random_forest",
+            "Parameters": {
+                "max_depth": null,
+                "n_estimators": 100
+            }
+        },
+        "['beta_channels', 'var', 'abs_diff_signal', 'spectral_shannon_entropy', 'min', 'std']": {
+            "Accuracy": 0.9661458333333334,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['abs_diff_signal', 'spectral_skewness_channels', 'max', 'ptp', 'theta_channels', 'spectral_variance']": {
+            "Accuracy": 0.9661458333333334,
+            "Model": "knn",
+            "Parameters": {
+                "n_neighbors": 3
+            }
+        },
+        "['beta_channels', 'std', 'hjorth_complexity', 'skewness', 'alpha_channels']": {
+            "Accuracy": 0.9539930555555556,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 100
+            }
+        },
+        "['alpha_channels', 'spectral_kurtosis_channels', 'wavelet_entropy', 'abs_diff_signal', 'hjorth_mobility']": {
+            "Accuracy": 0.9539930555555556,
+            "Model": "random_forest",
+            "Parameters": {
+                "max_depth": null,
+                "n_estimators": 200
+            }
+        },
+        "['abs_diff_signal', 'theta_channels', 'min']": {
+            "Accuracy": 0.9626736111111112,
+            "Model": "knn",
+            "Parameters": {
+                "n_neighbors": 3
+            }
+        },
+        "['hjorth_mobility', 'max', 'std', 'spectral_skewness_channels', 'hjorth_complexity']": {
+            "Accuracy": 0.9670138888888888,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['spectral_variance', 'kurtosis', 'beta_channels', 'std', 'spectral_shannon_entropy', 'hjorth_mobility']": {
+            "Accuracy": 0.9513888888888888,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['rms', 'std', 'hjorth_mobility', 'hjorth_complexity']": {
+            "Accuracy": 0.9618055555555556,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 100
+            }
+        },
+        "['spectral_shannon_entropy', 'hjorth_mobility', 'abs_diff_signal', 'shannon_entropy', 'delta_channels']": {
+            "Accuracy": 0.9565972222222222,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['abs_diff_signal', 'std', 'skewness', 'wavelet_entropy', 'beta_channels', 'spectral_mean', 'max']": {
+            "Accuracy": 0.9505208333333334,
+            "Model": "random_forest",
+            "Parameters": {
+                "max_depth": 20,
+                "n_estimators": 200
+            }
+        },
+        "['mean', 'abs_diff_signal', 'hjorth_complexity', 'min']": {
+            "Accuracy": 0.9670138888888888,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['ptp', 'peak_freq_channels', 'hjorth_mobility']": {
+            "Accuracy": 0.9574652777777778,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['spectral_wavelet_entropy', 'shannon_entropy', 'std', 'spectral_mean', 'alpha_channels', 'spectral_shannon_entropy', 'abs_diff_signal']": {
+            "Accuracy": 0.9557291666666666,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['spectral_variance', 'spectral_skewness_channels', 'abs_diff_signal', 'spectral_mean', 'spectral_shannon_entropy', 'rms']": {
+            "Accuracy": 0.9618055555555556,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['alpha_channels', 'abs_diff_signal', 'hjorth_mobility', 'spectral_wavelet_entropy', 'rms', 'hjorth_complexity']": {
+            "Accuracy": 0.9652777777777778,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['signal_energy', 'max', 'rms', 'alpha_channels', 'hjorth_mobility', 'theta_channels', 'spectral_skewness_channels']": {
+            "Accuracy": 0.9670138888888888,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['spectral_mean', 'abs_diff_signal', 'hjorth_mobility', 'alpha_channels', 'spectral_std', 'spectral_skewness_channels', 'var']": {
+            "Accuracy": 0.9713541666666666,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 100
+            }
+        },
+        "['alpha_channels', 'min', 'spectral_std', 'abs_diff_signal', 'hjorth_mobility', 'hjorth_complexity', 'mean']": {
+            "Accuracy": 0.9696180555555556,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 100
+            }
+        },
+        "['var', 'abs_diff_signal', 'delta_channels', 'spectral_shannon_entropy', 'beta_channels', 'alpha_channels']": {
+            "Accuracy": 0.9600694444444444,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['beta_channels', 'delta_channels', 'spectral_kurtosis_channels', 'rms', 'abs_diff_signal', 'ptp']": {
+            "Accuracy": 0.9583333333333334,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['spectral_skewness_channels', 'abs_diff_signal', 'beta_channels', 'min', 'spectral_shannon_entropy', 'ptp']": {
+            "Accuracy": 0.9618055555555556,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['beta_channels', 'hjorth_mobility', 'spectral_skewness_channels', 'peak_freq_channels', 'skewness', 'signal_energy', 'abs_diff_signal']": {
+            "Accuracy": 0.9592013888888888,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['alpha_channels', 'abs_diff_signal', 'spectral_mean', 'delta_channels']": {
+            "Accuracy": 0.96875,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['ptp', 'alpha_channels', 'spectral_std', 'skewness', 'abs_diff_signal', 'peak_freq_channels']": {
+            "Accuracy": 0.9513888888888888,
+            "Model": "random_forest",
+            "Parameters": {
+                "max_depth": null,
+                "n_estimators": 200
+            }
+        },
+        "['kurtosis', 'abs_diff_signal', 'spectral_variance', 'hjorth_complexity', 'peak_freq_channels', 'var']": {
+            "Accuracy": 0.9539930555555556,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['min', 'hjorth_mobility', 'rms']": {
+            "Accuracy": 0.9609375,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['spectral_variance', 'ptp', 'alpha_channels', 'abs_diff_signal', 'hjorth_complexity', 'kurtosis']": {
+            "Accuracy": 0.9565972222222222,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['hjorth_mobility', 'abs_diff_signal', 'ptp', 'std']": {
+            "Accuracy": 0.9678819444444444,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 100
+            }
+        },
+        "['hjorth_mobility', 'signal_energy']": {
+            "Accuracy": 0.953125,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['spectral_variance', 'abs_diff_signal', 'spectral_mean', 'shannon_entropy', 'max', 'rms']": {
+            "Accuracy": 0.9670138888888888,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 100
+            }
+        },
+        "['var', 'ptp', 'std', 'skewness', 'kurtosis', 'hjorth_complexity']": {
+            "Accuracy": 0.9557291666666666,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['ptp', 'theta_channels', 'abs_diff_signal']": {
+            "Accuracy": 0.9713541666666666,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['abs_diff_signal', 'skewness', 'spectral_std', 'hjorth_mobility', 'hjorth_complexity']": {
+            "Accuracy": 0.96875,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['rms', 'min', 'spectral_variance', 'abs_diff_signal', 'var']": {
+            "Accuracy": 0.9730902777777778,
+            "Model": "knn",
+            "Parameters": {
+                "n_neighbors": 5
+            }
+        },
+        "['hjorth_mobility', 'abs_diff_signal', 'alpha_channels', 'delta_channels', 'skewness', 'signal_energy', 'std']": {
+            "Accuracy": 0.9635416666666666,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 100
+            }
+        },
+        "['skewness', 'max', 'abs_diff_signal', 'theta_channels', 'spectral_wavelet_entropy', 'spectral_shannon_entropy']": {
+            "Accuracy": 0.9574652777777778,
+            "Model": "random_forest",
+            "Parameters": {
+                "max_depth": null,
+                "n_estimators": 200
+            }
+        },
+        "['abs_diff_signal', 'max', 'rms']": {
+            "Accuracy": 0.9670138888888888,
+            "Model": "knn",
+            "Parameters": {
+                "n_neighbors": 3
+            }
+        },
+        "['abs_diff_signal', 'shannon_entropy', 'hjorth_mobility', 'var', 'spectral_mean']": {
+            "Accuracy": 0.9539930555555556,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['abs_diff_signal', 'hjorth_mobility', 'kurtosis', 'max']": {
+            "Accuracy": 0.9618055555555556,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        },
+        "['kurtosis', 'std', 'abs_diff_signal', 'wavelet_entropy', 'peak_freq_channels', 'max']": {
+            "Accuracy": 0.9574652777777778,
+            "Model": "random_forest",
+            "Parameters": {
+                "max_depth": 20,
+                "n_estimators": 200
+            }
+        },
+        "['max', 'var', 'mean', 'spectral_std', 'spectral_skewness_channels', 'abs_diff_signal', 'std']": {
+            "Accuracy": 0.9652777777777778,
+            "Model": "knn",
+            "Parameters": {
+                "n_neighbors": 3
+            }
+        },
+        "['spectral_kurtosis_channels', 'std', 'spectral_mean', 'skewness', 'peak_freq_channels', 'abs_diff_signal', 'spectral_skewness_channels']": {
+            "Accuracy": 0.9565972222222222,
+            "Model": "random_forest",
+            "Parameters": {
+                "max_depth": 20,
+                "n_estimators": 200
+            }
+        },
+        "['max', 'std', 'spectral_skewness_channels', 'shannon_entropy', 'abs_diff_signal']": {
+            "Accuracy": 0.9574652777777778,
+            "Model": "extra_trees",
+            "Parameters": {
+                "n_estimators": 200
+            }
+        }
+    }
+]
