@@ -63,7 +63,6 @@ def concat_features(x, feature_list, save_feature_names):
 
     data = apply_functions(x, selected_functions)
     feature_names = list(functions.keys()) if 'all' in feature_list else feature_list
-    input(feature_names)
     concatenated_features = np.concatenate(data, axis=-1)
     if save_feature_names:
         print(f'Saving the following features: {feature_names}')
