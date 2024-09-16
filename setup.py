@@ -1,8 +1,11 @@
+import sys
+sys.path.insert(0, 'src')
 from load_data import load_schizo, load_ASD
 from concat_p import concatenate_p, get_all_features
 from concatination import concatenate
 import numpy as np
-  
+import os
+
 def setup_data():
 
     schizo_data_array, schizo_label_array = load_schizo()
@@ -51,8 +54,15 @@ def setup_features(schizo_data_array, asd_data_array):
     
     return schizo_all_feature_array, asd_all_feature_array
 
+def check_data_folder():
+    if not os.path.isdir('src\\data'):
+        print("Please download the folder from Google Drive and place it in the src directory as 'data'.")
+        return False
+    return True
+
 if __name__ == "__main__":
-    # Have them download the google drive folder and only proceed if the data folder is there
-    s_data_array, s_label_array, a_data_array, a_label_array = setup_data()
-    s_feature_array, a_feature_array = setup_features(s_data_array, a_data_array)
-    print("Setup Done")
+    print("Download EEG data from https://drive.google.com/drive/folders/199FWddeiX0f1NXjE8fQAfeDY7j0yejUO?usp=sharing and place it in the src directory as 'data' to get started.")
+    if check_data_folder():
+        s_data_array, s_label_array, a_data_array, a_label_array = setup_data()
+        s_feature_array, a_feature_array = setup_features(s_data_array, a_data_array)
+        print("Setup Done")
